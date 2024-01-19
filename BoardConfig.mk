@@ -36,6 +36,11 @@ COMMON_PATH := device/samsung/loganreltexx
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 
+# NFC
+BOARD_HAVE_NFC := true
+BOARD_NFC_CHIPSET := pn547
+BOARD_NFC_LPM_LOSES_CONFIG := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom androidboot.memcg=true user_debug=22 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
