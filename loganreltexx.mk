@@ -46,7 +46,10 @@ PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     NfcNci \
     Tag \
+    nfc.msm8960 \
     libpn547_fw \
+    libpn547_fw_pku \
+    libpn547_fw_platform \
     com.android.nfc_extras
 
 # NFCEE access control
