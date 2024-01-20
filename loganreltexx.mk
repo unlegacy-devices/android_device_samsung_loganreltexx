@@ -49,8 +49,7 @@ PRODUCT_PACKAGES += \
     nfc.msm8960 \
     libpn547_fw \
     libpn547_fw_pku \
-    libpn547_fw_platform \
-    com.android.nfc_extras
+    libpn547_fw_platform
 
 # NFCEE access control
 PRODUCT_COPY_FILES += \
