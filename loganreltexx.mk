@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     NfcNci \
     Tag \
+    libnfc \
     nfc.msm8960 \
     libpn547_fw \
     libpn547_fw_pku \
