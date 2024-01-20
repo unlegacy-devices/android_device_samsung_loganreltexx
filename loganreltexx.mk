@@ -39,10 +39,14 @@ PRODUCT_PACKAGES += \
     libgenlock
 
 # NFC packages
+# See https://github.com/CyanogenMod/android_external_libnfc-nci/blob/cm-14.1/halimpl/pn54x/Android.mk#L21
+# for magic values of NXP_CHIP_TYPE.
+NXP_CHIP_TYPE := 1
 PRODUCT_PACKAGES += \
     nfc_nci.pn54x.default \
     NfcNci \
     Tag \
+    libpn547_fw \
     com.android.nfc_extras
 
 # NFCEE access control
